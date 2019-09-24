@@ -1,0 +1,11 @@
+Fri Jul 05 12:19:53 2019
+wind
+PERMANENT
+fabio
+raster
+
+
+generato da r.proj
+r.proj --quiet -n location="temp_import_location_11720" mapset="PERM\
+ANENT" input="wind" method="nearest" memory=300 resolution=1070.4928\
+3212

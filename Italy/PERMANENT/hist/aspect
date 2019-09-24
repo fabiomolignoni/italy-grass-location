@@ -1,0 +1,14 @@
+Wed Jul 17 14:14:24 2019
+aspect
+PERMANENT
+fabio
+raster
+raster elevation file elevation
+
+generato da r.slope.aspect
+aspect map elev = elevation
+zfactor = 1.00
+min_slope = 0.000000
+
+r.slope.aspect elevation="elevation" slope="slope" aspect="aspect" f\
+ormat="degrees" precision="FCELL" zscale=1.0 min_slope=0.0

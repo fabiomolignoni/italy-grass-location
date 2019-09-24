@@ -1,0 +1,7 @@
+COMMAND: v.in.ogr --overwrite -r input="railways.dbf" layer="railways" output="railways" min_area=0.0001 type="" snap=-1
+GISDBASE: C:\Users\fabio\Desktop\Wind Power Project\italy
+LOCATION: temp_import_location_8716 MAPSET: PERMANENT USER: fabio DATE: Thu Jul 11 16:52:06 2019
+---------------------------------------------------------------------------------
+COMMAND: v.proj --overwrite location="temp_import_location_8716" mapset="PERMANENT" input="railways" smax=10000
+GISDBASE: C:\Users\fabio\Desktop\Wind Power Project\italy
+LOCATION: Italy MAPSET: PERMANENT USER: fabio DATE: Thu Jul 11 16:52:08 2019

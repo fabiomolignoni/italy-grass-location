@@ -1,0 +1,7 @@
+COMMAND: v.in.ogr input="ITA_water_lines_dcw.dbf" output="test" min_area=0.0001 type="" snap=-1
+GISDBASE: C:\Users\fabio\Desktop\Wind Power Project\italy
+LOCATION: temp_import_location_3820 MAPSET: PERMANENT USER: fabio DATE: Tue Aug 27 18:17:11 2019
+---------------------------------------------------------------------------------
+COMMAND: v.proj location="temp_import_location_3820" mapset="PERMANENT" input="test" smax=10000
+GISDBASE: C:\Users\fabio\Desktop\Wind Power Project\italy
+LOCATION: Italy MAPSET: Project USER: fabio DATE: Tue Aug 27 18:17:12 2019

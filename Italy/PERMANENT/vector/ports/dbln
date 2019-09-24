@@ -1,0 +1,1 @@
+1/ne_10m_ports|ports|cat|$GISDBASE/$LOCATION_NAME/$MAPSET/sqlite/sqlite.db|sqlite

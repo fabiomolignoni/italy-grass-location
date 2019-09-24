@@ -1,0 +1,11 @@
+Mon Jul 08 15:31:40 2019
+landuse
+PERMANENT
+fabio
+raster
+
+
+generato da r.proj
+r.proj --quiet location="temp_import_location_9840" mapset="PERMANEN\
+T" input="landuse" method="nearest" memory=300 resolution=125.452691\
+727

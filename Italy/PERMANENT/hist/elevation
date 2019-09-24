@@ -1,0 +1,9 @@
+Mon Jul 08 10:53:44 2019
+elevation_final8
+PERMANENT
+fabio
+raster
+
+
+generato da r.mapcalc
+if(isnull(elevation_final7), elevation8, elevation_final7)

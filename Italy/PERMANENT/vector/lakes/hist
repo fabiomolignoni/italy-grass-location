@@ -1,0 +1,12 @@
+COMMAND: v.in.ogr -r input="EcrLak.sqlite" layer="C_Lak" output="lakes" min_area=0.0001 type="" snap=-1
+GISDBASE: C:\Users\fabio\Desktop\Wind Power Project\italy
+LOCATION: temp_import_location_12480 MAPSET: PERMANENT USER: fabio DATE: Sat Jul 06 14:59:43 2019
+-----------------------------------------------------
+1910 poligoni di input
+Area totale: 7.95788E+009 (3662 aree)
+Area di sovrapposizione: 1.383E+008 (854 aree)
+Aree senza categoria: 5.40509E+007 (693 aree)
+---------------------------------------------------------------------------------
+COMMAND: v.proj location="temp_import_location_12480" mapset="PERMANENT" input="lakes" smax=10000
+GISDBASE: C:\Users\fabio\Desktop\Wind Power Project\italy
+LOCATION: Italy MAPSET: PERMANENT USER: fabio DATE: Sat Jul 06 14:59:48 2019

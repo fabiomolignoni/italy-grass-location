@@ -1,0 +1,7 @@
+COMMAND: v.in.ogr --overwrite -r input="ne_10m_ports.dbf" output="ports" min_area=0.0001 type="" snap=-1
+GISDBASE: C:\Users\fabio\Desktop\Wind Power Project\italy
+LOCATION: temp_import_location_12632 MAPSET: PERMANENT USER: fabio DATE: Thu Aug 08 11:30:06 2019
+---------------------------------------------------------------------------------
+COMMAND: v.proj --overwrite location="temp_import_location_12632" mapset="PERMANENT" input="ports" smax=10000
+GISDBASE: C:\Users\fabio\Desktop\Wind Power Project\italy
+LOCATION: Italy MAPSET: Project USER: fabio DATE: Thu Aug 08 11:30:06 2019

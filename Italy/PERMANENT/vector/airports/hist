@@ -1,0 +1,7 @@
+COMMAND: v.in.ogr --overwrite -r input="AIRP_PT_2013.dbf" layer="AIRP_PT_2013" output="airports" min_area=0.0001 type="" snap=-1
+GISDBASE: C:\Users\fabio\Desktop\Wind Power Project\italy
+LOCATION: temp_import_location_6452 MAPSET: PERMANENT USER: fabio DATE: Thu Jul 11 17:00:10 2019
+---------------------------------------------------------------------------------
+COMMAND: v.proj --overwrite location="temp_import_location_6452" mapset="PERMANENT" input="airports" smax=10000
+GISDBASE: C:\Users\fabio\Desktop\Wind Power Project\italy
+LOCATION: Italy MAPSET: PERMANENT USER: fabio DATE: Thu Jul 11 17:00:11 2019

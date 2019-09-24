@@ -1,0 +1,12 @@
+COMMAND: v.in.ogr --overwrite input="gadm36_ITA_1.shp" output="boundary" min_area=0.0001 type="" snap=-1
+GISDBASE: C:\Users\fabio\Desktop\Wind Power Project\italy
+LOCATION: temp_import_location_1212 MAPSET: PERMANENT USER: fabio DATE: Sat Jul 13 18:32:19 2019
+-----------------------------------------------------
+346 poligoni di input
+Area totale: 3.00817E+011 (350 aree)
+Area di sovrapposizione: 0 (0 aree)
+Aree senza categoria: 6.18486E+007 (4 aree)
+---------------------------------------------------------------------------------
+COMMAND: v.proj --overwrite location="temp_import_location_1212" mapset="PERMANENT" input="boundary" smax=10000
+GISDBASE: C:\Users\fabio\Desktop\Wind Power Project\italy
+LOCATION: Italy MAPSET: PERMANENT USER: fabio DATE: Sat Jul 13 18:32:22 2019

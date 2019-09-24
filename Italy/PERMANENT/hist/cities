@@ -1,0 +1,11 @@
+Sat Jul 13 18:26:32 2019
+cities1
+PERMANENT
+fabio
+raster
+
+
+generato da r.mapcalc
+if((landuse == 111 || landuse == 112 || landuse == 121 || landuse == 
+122 || landuse == 123 || landuse == 124 || landuse == 131 || landuse 
+== 132 || landuse == 133 || landuse == 141 || landuse == 142), 1, 0)
