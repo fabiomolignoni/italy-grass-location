@@ -1,5 +1,5 @@
 # italy-grass-location
-An GRASS location containing Italian maps created for the "Spatial Databases" final project at UNITN. It contains 6 vector maps:
+A GRASS location containing Italian maps created for the "Spatial Databases" final project at UNITN. It contains 6 vector maps:
 * roads
 * railways
 * rivers
